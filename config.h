@@ -69,5 +69,5 @@ static const struct arg args[] = {
 	{ cpu_perc, 	" [CPU  %s%%] ", 	NULL							 },
 	{ datetime, 	" [%s] ",           	" %d %b %Y | %H:%M %p "					 },
 	{ run_command,	" [%s] ",		"/home/shiv/Shiv/Linux/suckless/some_scripts/bin/volume" },
-	{ run_command, 	" [%s] ",		"/home/shiv/Shiv/Linux/suckless/some_scripts/bin/battery" },
+	{ run_command, 	" [%s] ",		"/home/shiv/Shiv/Linux/suckless/some_scripts/bin/batt" },
 };
