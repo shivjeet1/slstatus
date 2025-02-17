@@ -65,9 +65,9 @@ static const char unknown_str[] = "N/A";
  */
 static const struct arg args[] = {
 	/* function 	format          		argument */
-	{ run_command, 	" [%s] ",		"/home/shiv/.local/bin/nettraf" },
+	{ run_command, 	" [%s] ",		"$HOME/.local/bin/nettraf" },
 	{ cpu_perc, 	" [CPU  %s%%] ", 	NULL							 },
 	{ datetime, 	" [%s] ",           	" %d %b %Y | %H:%M %p "					 },
-	{ run_command,	" [%s] ",		"/home/shiv/.local/bin/volume" },
-	{ run_command, 	" [%s] ",		"/home/shiv/.local/bin/batt" },
+	{ run_command,	" [%s] ",		"$HOME/shiv/.local/bin/volume" },
+	{ run_command, 	" [%s] ",		"$HOME/shiv/.local/bin/batt" },
 };
