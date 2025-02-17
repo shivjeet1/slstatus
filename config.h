@@ -68,6 +68,6 @@ static const struct arg args[] = {
 	{ run_command, 	" [%s] ",		"$HOME/.local/bin/nettraf" },
 	{ cpu_perc, 	" [CPU  %s%%] ", 	NULL							 },
 	{ datetime, 	" [%s] ",           	" %d %b %Y | %H:%M %p "					 },
-	{ run_command,	" [%s] ",		"$HOME/shiv/.local/bin/volume" },
-	{ run_command, 	" [%s] ",		"$HOME/shiv/.local/bin/batt" },
+	{ run_command,	" [%s] ",		"$HOME/.local/bin/volume" },
+	{ run_command, 	" [%s] ",		"$HOME/.local/bin/batt" },
 };
